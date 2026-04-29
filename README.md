@@ -5,7 +5,6 @@ Welcome to the BrainPop website repository. This site is built using **Jekyll** 
 All content is managed through plain-text files in the `_data/` folder. When you push changes to the `main` branch, the website will automatically rebuild and update within a few minutes.
 
 ---
-
 ## Quick Reference: How to Update
 
 ### 1. Updating Text Content
