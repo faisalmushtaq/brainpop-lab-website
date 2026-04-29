@@ -69,3 +69,4 @@ The site follows a clean, editorial aesthetic. To maintain this look:
 <!-- Triggering workflow cache refresh -->
 # Trigger workflow
 # Deploy
+# Trigger rebuild for Dominik Welke image
