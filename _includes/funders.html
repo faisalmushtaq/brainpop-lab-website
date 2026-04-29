@@ -1,0 +1,17 @@
+<section id="funders" class="section section-light">
+  <div class="container">
+    <div class="reveal">
+      <h2>Our <span class="accent">Funders</span></h2>
+    </div>
+    <div class="funder-grid reveal">
+      {% for funder in site.data.partnerships.funders %}
+      <a href="{{ funder.url }}" class="funder-card" target="_blank" rel="noopener">
+        <div class="funder-card-img">
+          <img src="{{ site.baseurl }}/assets/images/logos/{{ funder.image }}" alt="{{ funder.name }}" class="partner-logo-card">
+        </div>
+        <p class="funder-name">{{ funder.name }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

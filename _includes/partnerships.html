@@ -1,0 +1,22 @@
+<section id="partnerships" class="section section-light">
+  <div class="container">
+    <div class="reveal"><h2>Our <span class="accent">Partners</span></h2></div>
+    <div class="project-grid">
+      {% for partner in site.data.partnerships.partners %}
+      <div class="project-card reveal" id="{{ partner.id }}" data-category="{{ partner.category | default: 'Partner' }}">
+        {% if partner.image %}
+        <div class="project-card-img">
+          <img src="{{ site.baseurl }}/assets/images/logos/{{ partner.image }}" alt="{{ partner.name }} logo">
+        </div>
+        {% endif %}
+        <div class="project-card-body">
+          <div class="project-card-label">{{ partner.category | default: 'Partner' }}</div>
+          <h3>{{ partner.name }}</h3>
+          <p>{{ partner.description }}</p>
+          <a href="{{ partner.url }}" class="project-card-arrow" target="_blank" rel="noopener">Partner Website &nbsp;&rarr;</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,55 @@
+- title: "#EEGManyLabs"
+  id: "eegmanylabs"
+  image: "eegmanylabs.jpg"
+  category: "Research"
+  description: |
+    #EEGManyLabs is an international collaboration testing the reproducibility of EEG research across dozens of laboratories worldwide. Co-directed by BrainPop PI Faisal Mushtaq, the project conducts multi-site replications of influential findings in cognitive science using shared protocols and pre-registered analysis plans. By coordinating large-scale collaborative experiments, #EEGManyLabs helps to establish empirical benchmarks for reliability and transparency in EEG research and fosters a culture of openness across the field.
+
+- title: "EEG101"
+  id: "eeg101"
+  image: "eeg101.jpg"
+  category: "Training"
+  description: |
+    EEG101 is our training and capacity-building initiative focused on widening access to high-quality EEG education, methods, and practical skills. Developed through international collaboration, EEG101 supports researchers, students, and emerging labs through shared teaching materials, workshops, and open resources designed to make EEG more accessible, standardised, and reproducible across settings. The initiative aims to lower barriers to entry for EEG and behavioural research while helping build a more connected and globally inclusive methodological community.
+
+- title: "Citizen Neuroscience"
+  id: "citizen-neuroscience"
+  image: "citizen_neuro.jpg"
+  category: "Research"
+  description: |
+    Citizen Neuroscience is a large-scale programme studying adolescent brain development, building on the foundations laid by the Born in Bradford longitudinal cohort. Co-created with teachers and young people, the project uses classroom-based EEG and behavioural workshops to collect data from thousands of participants, linking these with health, education, and environmental records. It represents the first city-wide cognitive science programme of its kind, generating an unparalleled dataset on brain and behavioural development during adolescence.
+
+- title: "Bradford Brain Map"
+  id: "bradford-brain-map"
+  image: "bradford_brain_map.jpg"
+  category: "Research"
+  description: |
+    The Bradford Brain Map is a geospatial initiative mapping patterns of mental health and wellbeing across Bradford, one of the UK's most diverse and deprived cities. By linking EEG and behavioural data from the Citizen Neuroscience programme with postcode-level health, education, and environmental records, the project creates high-resolution maps of cognitive and emotional wellbeing across the city. The Bradford Brain Map aims to identify neighbourhood-level risk and protective factors, inform targeted public health interventions, and provide a replicable model for city-scale brain health surveillance.
+
+- title: "MyPhone / MyBrain"
+  id: "myphone-mybrain"
+  image: "myphone_mybrain.jpg"
+  category: "Research"
+  description: |
+    MyPhone/MyBrain is a city-scale citizen-science programme examining how patterns of digital engagement relate to adolescent brain development, behaviour, and mental health. In the MyPhone strand, young people can securely donate their social media usage data to provide insights into usage timing, interaction style, and content exposure. This is paired with MyBrain workshops, where students collect EEG brain recordings during rest and while performing cognitive tests. These data are connected to routinely collected health and education records, allowing us to examine how digital behaviour relates to outcomes including academic attainment, mental health, and health service use.
+
+- title: "The Brain Bus"
+  id: "brain-bus"
+  image: "brain_bus.jpg"
+  category: "Research"
+  description: |
+    The Brain Bus is a mobile research vehicle developed in partnership with the Bradford Institute for Health Research and local communities. Equipped with EEG and behavioural testing facilities, it brings the laboratory directly to schools, community centres, and public spaces across Bradford and beyond. By removing the need for participants to travel to a university setting, the Brain Bus dramatically lowers barriers to participation in cognitive science research, enabling us to reach populations that are typically underrepresented in neuroscience studies. The vehicle is designed to support both data collection and public engagement, helping to build trust and enthusiasm for brain research across diverse communities.
+
+- title: "Unity Experiment Framework"
+  id: "unity-experiment-framework"
+  image: "unity_experiment.jpg"
+  category: "Software"
+  description: |
+    We believe that virtual reality has the potential to transform the ways in which we study brain and behaviour. The Unity Experiment Framework (UXF) is our widely adopted open-source toolkit that helps researchers accelerate the development of VR and desktop-based cognitive experiments. Built on the Unity game engine, UXF provides a flexible, modular infrastructure for designing, running, and logging behavioural experiments without requiring specialist programming expertise. The framework has been adopted by laboratories worldwide and is actively used to deliver EEG-compatible VR paradigms, enabling new approaches to studying perception, attention, and motor control in ecologically valid environments.
+
+- title: "Electro-Tools"
+  id: "electro-tools"
+  image: "electro_tools.jpg"
+  category: "Software"
+  description: |
+    Electro-Tools is our programme developing open, reproducible methods for EEG to support researchers in implementing robust, scalable analysis pipelines across diverse devices and recording settings. The aim is to improve the comparability of EEG data across studies and to advance reproducible biomarker discovery through openly shared software and training materials.

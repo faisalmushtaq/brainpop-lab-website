@@ -1,0 +1,16 @@
+<section id="about" class="section">
+  <div class="container">
+    <div class="reveal">
+      <h2>About</h2>
+      <div class="prose">
+        {{ site.data.content.about | markdownify }}
+      </div>
+    </div>
+    <div class="reveal" style="margin-top: 2.5rem;">
+      <h3 class="about-subheading">Our <span class="accent">Approach</span></h3>
+      <div class="prose">
+        {{ site.data.content.approach | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>

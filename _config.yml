@@ -1,0 +1,29 @@
+
+title: "BrainPop Lab"
+tagline: "Delivering population‑scale cognitive science through EEG and behavioural research, grounded in open and reproducible methods."
+email: "BrainPop@leeds.ac.uk"
+
+# Site settings for GitHub Pages
+baseurl: "/brainpop-website"
+url: "https://faisalmushtaq.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Data driven sections
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+
+# Minor change to trigger rebuild
+
+# Another minor change to trigger rebuild
+
+# Final trigger for rebuild
+
+# Attempting another rebuild trigger

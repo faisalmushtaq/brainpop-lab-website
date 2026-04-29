@@ -1,0 +1,121 @@
+- name: "Professor Faisal Mushtaq"
+  role: "Principal Investigator"
+  bio: |
+    Faisal's research focuses on open, scalable, and globally inclusive approaches to brain-data science and linking large-scale experimental and population studies.
+  image: "faisal_mushtaq.jpg"
+  links:
+    - label: "Webpage"
+      url: "https://medicinehealth.leeds.ac.uk/psychology/staff/632/professor-faisal-mushtaq"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=bcjpWSwAAAAJ&hl=en"
+
+- name: "Dr Olivia Jones"
+  role: "Lecturer"
+  bio: |
+    Olivia is a Lecturer and in the BrainPop Lab contributes to research on cognitive development and EEG methods across diverse populations.
+  image: "olivia_jones.webp"
+  links: []
+
+- name: "Dr Sarmad Ali"
+  role: "Programme Coordinator"
+  bio: |
+    Sarmad coordinates research operations across the BrainPop Lab, managing project timelines, international partnerships, and public engagement activities.
+  image: "sarmad_ali.png"
+  links:
+    - label: "Email"
+      url: "mailto:BrainPop@leeds.ac.uk"
+
+- name: "Dr Jasper van den Bosch"
+  role: "Postdoctoral Researcher"
+  bio: |
+    Jasper focuses on EEG signal processing and reproducibility, contributing to open-science infrastructure for large-scale cognitive neuroscience.
+  image: "jasper_van_den_bosch.jpg"
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=XQ3-JHgAAAAJ"
+    - label: "ORCiD"
+      url: "https://orcid.org/0000-0001-9326-2090"
+
+- name: "Dr Dominik Welke"
+  role: "Postdoctoral Researcher"
+  bio: |
+    Dominik specialises in multimodal neuroimaging and developing robust, scalable methods for multi-site studies, contributing to open-science infrastructure.
+  image: "dominik_welke.png"
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=B5xCyM0AAAAJ"
+    - label: "ORCiD"
+      url: "https://orcid.org/0000-0002-5529-1998"
+
+- name: "Dr Matthew Warburton"
+  role: "Postdoctoral Researcher"
+  bio: |
+    Matthew’s research assesses learning and developmental trajectories through remote sensorimotor assessment and population-scale secondary data analyses.
+  image: "matthew_warburton.jpg"
+  links:
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=zQa8nTgAAAAJ&hl=en"
+    - label: "ORCiD"
+      url: "https://orcid.org/0000-0001-5309-4424"
+
+- name: "Dr George Gabriel"
+  role: "Leverhulme Research Fellow"
+  bio: |
+    George's research uses interactive media to study learning and skill acquisition across multiple cognitive domains.
+  image: "george_gabriel.jpg"
+  links:
+    - label: "ORCiD"
+      url: "https://orcid.org/0000-0002-6077-2614"
+
+- name: "Dr Layla Kouara"
+  role: "Research Software Engineer"
+  bio: |
+    Layla develops and maintains open-source software tools for EEG data processing and analysis, supporting reproducible research across the BrainPop Lab's projects.
+  image: "layla_kouara.jpg"
+  links: []
+
+- name: "Kate Hiley"
+  role: "PhD Researcher"
+  bio: |
+    Kate uses out-of-lab EEG to involve adolescents and communities in the research process to improve accessibility, inclusivity, and translational potential.
+  image: "kate_hiley.jpg"
+  links:
+    - label: "ORCiD"
+      url: "https://orcid.org/0009-0000-1824-3850"
+
+- name: "Miftah Faizah"
+  role: "PhD Researcher"
+  bio: |
+    Miftah is studying adolescent mental health using EEG, working on markers of mental health symptoms and the impact of social media.
+  image: "miftah_faizah.jpg"
+  links:
+    - label: "Webpage"
+      url: "https://miftahfai.github.io/"
+
+- name: "Iona Crofts"
+  role: "PhD Researcher"
+  bio: |
+    Iona's research explores links between socioeconomic environment and neural development in adolescents using data from the Born in Bradford cohort.
+  image: "iona_crofts.png"
+  links: []
+
+- name: "Hannah Meek"
+  role: "PhD Researcher"
+  bio: |
+    Hannah’s research explores how different dimensions of social inequality combine to shape adolescent brain health and educational outcomes.
+  image: "hannah_meek.jpg"
+  links: []
+
+- name: "Fangzhou Hu"
+  role: "PhD Researcher"
+  bio: |
+    Fangzhou is working on large-scale global EEG data harmonization. He is applying AI and machine learning approaches to decoding EEG signals.
+  image: "fangzhou_hu.jpg"
+  links: []
+
+- name: "Isaac Tugwell"
+  role: "Research Assistant"
+  bio: |
+    Isaac applies machine learning approaches to EEG metadata curation to support local and global data harmonisation efforts.
+  image: "isaac_tugwell.jpg"
+  links: []

@@ -1,0 +1,37 @@
+partners:
+  - name: "Global Brain Consortium"
+    category: "Research Network"
+    description: "The Global Brain Consortium promotes data sharing and methodological standardisation across international EEG and neuroimaging initiatives, bringing together researchers from over 40 countries."
+    url: "https://globalbrainconsortium.org"
+    image: "global_brain.png"
+
+  - name: "African Brain Data Network"
+    category: "Research Network"
+    description: "The African Brain Data Network builds capacity for neuroscience research across the African continent, supporting open data infrastructure and training for researchers in low- and middle-income settings."
+    url: "https://africanbraindatanetwork.com"
+    image: "african_brain.png"
+
+  - name: "Born in Bradford"
+    category: "Cohort Programme"
+    description: "Born in Bradford is one of the world's largest longitudinal birth cohort studies, following over 13,500 children and families. BrainPop links EEG and behavioural data to Bradford's rich health, education, and environmental records."
+    url: "https://borninbradford.nhs.uk"
+    image: "born_bradford.png"
+
+  - name: "Centre for Applied Education Research"
+    category: "Institutional Partner"
+    description: "The Centre for Applied Education Research (CAER) brings together researchers, educators, and policymakers to generate evidence that improves learning outcomes. BrainPop is embedded within CAER, linking brain data with population-level education records."
+    url: "https://caer.org.uk"
+    image: "caer.png"
+
+funders:
+  - name: "UKRI"
+    url: "https://www.ukri.org"
+    image: "ukri.png"
+
+  - name: "Huo Family Foundation"
+    url: "https://huofamilyfoundation.org/"
+    image: "huo.png"
+
+  - name: "NIHR"
+    url: "https://www.nihr.ac.uk"
+    image: "nihr.png"

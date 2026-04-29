@@ -1,0 +1,32 @@
+<section id="people" class="section">
+  <div class="container">
+    <div class="reveal">
+      <h2>Meet the <span class="accent">Team</span></h2>
+      <p class="section-subtitle">Based across Leeds and Bradford, our team brings together expertise in cognitive neuroscience, data science, EEG methods, and global research coordination.</p>
+    </div>
+    <div class="people-grid">
+      {% for person in site.data.people %}
+      <div class="person-card reveal">
+        <div class="person-image">
+          <img src="{{ site.baseurl }}/assets/images/people/{{ person.image }}" alt="{{ person.name }}">
+        </div>
+        <div class="person-info">
+          <p class="role">{{ person.role }}</p>
+          <h3>{{ person.name }}</h3>
+          <p class="bio">{{ person.bio }}</p>
+          {% if person.links and person.links.size > 0 %}
+          <div class="links">
+            {% for link in person.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="funding-acknowledgement reveal">
+      <p>Our research is generously supported by several funders, including <strong>UKRI</strong>, the <strong>Huo Family Foundation</strong>, and the <strong>National Institute for Health and Care Research (NIHR)</strong>. We are grateful to our funders for making this work possible.</p>
+    </div>
+  </div>
+</section>
