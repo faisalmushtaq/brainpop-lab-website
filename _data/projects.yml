@@ -3,7 +3,7 @@
   image: "eegmanylabs.jpg"
   category: "Research"
   description: |
-    #EEGManyLabs is an international collaboration testing the reproducibility of EEG research across dozens of laboratories worldwide. Co-directed by BrainPop PI Faisal Mushtaq, the project conducts multi-site replications of influential findings in cognitive science using shared protocols and pre-registered analysis plans. By coordinating large-scale collaborative experiments, #EEGManyLabs helps to establish empirical benchmarks for reliability and transparency in EEG research and fosters a culture of openness across the field.
+    #EEGManyLabs is an international collaboration testing the replicability of EEG research across dozens of laboratories worldwide. Co-directed by BrainPop PI Faisal Mushtaq with Dr Yuri Pavlov (UoB, Alabama), the project conducts multi-site replications of influential findings using pre-registered analysis plans. By coordinating large-scale collaborative experiments, #EEGManyLabs is at the forefront of establishing empirical benchmarks for reliability and transparency in EEG research and creating a culture of openness across the field.
 
 - title: "EEG101"
   id: "eeg101"

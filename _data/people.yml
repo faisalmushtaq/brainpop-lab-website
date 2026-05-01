@@ -109,7 +109,7 @@
 - name: "Fangzhou Hu"
   role: "PhD Researcher"
   bio: |
-    Fangzhou is working on large-scale global EEG data harmonization. He is applying AI and machine learning approaches to decoding EEG signals.
+    Fangzhou is working on large-scale global EEG data harmonisation. He is applying AI and machine learning approaches to decoding EEG signals.
   image: "fangzhou_hu.jpg"
   links: []
 
