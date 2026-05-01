@@ -63,4 +63,4 @@ The site follows a clean, editorial aesthetic. To maintain this look:
 - **Scroll Offset:** If you add new sections, the CSS includes a `scroll-margin-top` fix to ensure the fixed header doesn't cover section titles when navigating.
 
 ---
-*Maintained by the BrainPop Lab. For major structural changes, please consult with the PI.*
+*Maintained by the BrainPop Lab. For major structural changes, please consult with Sarmad Ali*
