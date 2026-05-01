@@ -40,7 +40,7 @@
   role: "Postdoctoral Researcher"
   bio: |
     Dominik specialises in multimodal neuroimaging and developing robust, scalable methods for multi-site studies, contributing to open-science infrastructure.
-  image: "dominik_welke.png"
+  image: "dominik_welke.jpg"
   links:
     - label: "Google Scholar"
       url: "https://scholar.google.com/citations?user=B5xCyM0AAAAJ"
@@ -118,4 +118,11 @@
   bio: |
     Isaac applies machine learning approaches to EEG metadata curation to support local and global data harmonisation efforts.
   image: "isaac_tugwell.jpg"
+  links: []
+  
+- name: "Xuekun Li"
+  role: "Research Assistant"
+  bio: |
+    Xuekun is an electronics engineer working on low-cost arduino device development for measuring latencies in EEG studies.
+  image: "xuekun_li.jpg"
   links: []
