@@ -47,9 +47,12 @@
   description: |
     We believe that virtual reality has the potential to transform the ways in which we study brain and behaviour. The Unity Experiment Framework (UXF) is our widely adopted open-source toolkit that helps researchers accelerate the development of VR and desktop-based cognitive experiments. Built on the Unity game engine, UXF provides a flexible, modular infrastructure for designing, running, and logging behavioural experiments without requiring specialist programming expertise. The framework has been adopted by laboratories worldwide and is actively used to deliver EEG-compatible VR paradigms, enabling new approaches to studying perception, attention, and motor control in ecologically valid environments.
 
-- title: "Electro-Tools"
-  id: "electro-tools"
-  image: "electro_tools.jpg"
-  category: "Software"
+- title: "DecryptIQ"
+  id: "decryptiq"
+  image: "decryptiq.png"
+  category: "Research"
   description: |
-    Electro-Tools is our programme developing open, reproducible methods for EEG to support researchers in implementing robust, scalable analysis pipelines across diverse devices and recording settings. The aim is to improve the comparability of EEG data across studies and to advance reproducible biomarker discovery through openly shared software and training materials.
+    DecryptIQ is a cryptic decoding puzzle designed to investigate human cognition. Participants play a 15-minute game to assess their puzzle-solving skills, while contributing to scientific research on how the human mind processes complex information. The project aims to gather data on cognitive abilities within the general population, providing valuable insights for cognitive science.
+  links:
+    - label: "Play DecryptIQ"
+      url: "https://www.decryptiq.net/en/"
