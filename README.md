@@ -59,7 +59,7 @@ The site follows a clean, editorial aesthetic. To maintain this look:
 
 ## Technical Notes
 - **Local Preview:** If you have Jekyll installed, run `bundle exec jekyll serve` to preview changes locally at `localhost:4000`.
-- **Deployment:** The site is live at https://github.com/faisalmushtaq/brainpop-lab-website)/.
+- **Deployment:** The site is live at https://github.com/faisalmushtaq/brainpop-lab-website.
 - **Scroll Offset:** If you add new sections, the CSS includes a `scroll-margin-top` fix to ensure the fixed header doesn't cover section titles when navigating.
 
 ---
