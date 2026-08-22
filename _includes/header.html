@@ -1,12 +1,61 @@
-<header class="site-header">
-  <div class="container">
-    <div class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></div>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#people">People</a>
-      <a href="#partnerships">Partners</a>
-      <a href="#join">Join Us</a>
-      <a href="#contact" class="nav-cta">Contact</a></nav>
-  </div>
+<header class="site-header" role="banner">
+  <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="{{ site.baseurl }}/" aria-label="{{ site.title }} home">
+        <span class="navbar-brand__mark" aria-hidden="true">✦</span>
+        <span class="navbar-brand__text">
+          <span class="navbar-brand__name">{{ site.title }}</span>
+          <span class="navbar-brand__action">Cognitive science for everyone</span>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              aria-controls="main-nav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <svg class="navbar-close-icon" width="22" height="22" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2.5"
+             stroke-linecap="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#people">People</a></li>
+          <li class="nav-item"><a class="nav-link" href="#partnerships">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="#join">Join Us</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-primary btn-sm nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
+<script>
+  (function () {
+    var toggler = document.querySelector('.navbar-toggler');
+    var menu = document.getElementById('main-nav');
+    if (!toggler || !menu) return;
+
+    function closeMenu() {
+      menu.classList.remove('show');
+      toggler.setAttribute('aria-expanded', 'false');
+    }
+
+    toggler.addEventListener('click', function () {
+      var open = menu.classList.toggle('show');
+      toggler.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 991.98) closeMenu();
+    });
+  })();
+</script>
