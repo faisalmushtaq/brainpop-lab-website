@@ -1,11 +1,57 @@
 <section id="contact" class="section section-contact-photo">
   <div class="contact-photo-inner">
     <div class="container">
-      <div class="contact-content reveal">
-        <h2>Contact</h2>
-        <div class="prose prose-light">
-          {{ site.data.content.contact | markdownify }}
+      <div class="contact-layout reveal">
+        <div class="contact-content">
+          <p class="contact-eyebrow">Contact us</p>
+          <h2>Start a conversation.</h2>
+          <div class="prose prose-light">
+            <p>Whether you would like to discuss a collaboration, research participation, training, or an enquiry about our work, please send us a message using the form.</p>
+            <p>We will route your enquiry to the relevant member of the BrainPop Lab team.</p>
+          </div>
         </div>
+
+        <form class="contact-form" action="https://forms.un-static.com/forms/cddbfd9d5aa8110d08167dbbb71b4a483178aeb1" method="post">
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label for="contact-name">Full name</label>
+              <input id="contact-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="contact-form__field">
+              <label for="contact-email">Email address</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label for="contact-topic">How can we help?</label>
+              <select id="contact-topic" name="topic" required>
+                <option value="" selected disabled>Select a topic</option>
+                <option value="Research collaboration">Research collaboration</option>
+                <option value="Training or methods">Training or methods</option>
+                <option value="Research participation">Research participation</option>
+                <option value="Student or career enquiry">Student or career enquiry</option>
+                <option value="Media or general enquiry">Media or general enquiry</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="contact-form__field">
+              <label for="contact-subject">Subject</label>
+              <input id="contact-subject" name="subject" type="text" required>
+            </div>
+          </div>
+
+          <div class="contact-form__field">
+            <label for="contact-message">Your message</label>
+            <textarea id="contact-message" name="message" rows="6" required></textarea>
+          </div>
+
+          <div class="contact-form__submit-row">
+            <p class="contact-form__note">Please do not include sensitive personal or health information in this form.</p>
+            <button type="submit" class="contact-form__submit">Send enquiry <span aria-hidden="true">→</span></button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
