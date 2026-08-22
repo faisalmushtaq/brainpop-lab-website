@@ -408,8 +408,8 @@ img { max-width: 100%; display: block; }
 /* ── People / Team cards ────────────────────────────────────────────────── */
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 1.25rem;
   margin-top: 0;
 }
 
@@ -752,6 +752,24 @@ div[id] {
   div[id] {
     scroll-margin-top: 70px;
   }
+
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 0.85rem;
+  }
+
+  .person-card .person-info {
+    padding-top: 0.75rem;
+  }
+
+  .person-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .person-card .bio {
+    font-size: 0.76rem;
+  }
+
   .funder-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
